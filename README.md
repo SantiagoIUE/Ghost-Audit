@@ -1,6 +1,6 @@
-# 👻 Ghost Audit — Exorcista de Legacy
+#  Ghost Audit — Exorcista de Legacy
 
-## 💡 La Idea Core
+##  La Idea Core
 Un Power de Kiro que lee un proyecto viejo, explica en español simple qué hace el
 negocio y dibuja un mapa de riesgo (rojo = frágil, verde = migrado). Después lo
 moderniza por etapas, con un humano que valida el alcance y aprueba el plan antes
@@ -9,7 +9,7 @@ de tocar código.
 Problema que resuelve: las empresas tienen sistemas viejos que nadie entiende,
 cuestan caro de mantener y dan miedo de modificar.
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 - IDE / agente: Kiro (Power con plugin.json, mcp.json, skills/, dev.kiro/)
 - Frontend: React + Vite + React Flow (mapa de módulos)
 - Backend: Node.js (lee el repo y genera el análisis en JSON)
@@ -17,7 +17,7 @@ cuestan caro de mantener y dan miedo de modificar.
 - Proyecto viejo de ejemplo: [JavaScript / PHP]
 - Control de versiones: GitHub
 
-## 📋 Alcance Mínimo Viable (MVP)
+##  Alcance Mínimo Viable (MVP)
 Debe estar sí o sí:
 1. Análisis de un repo de ejemplo -> JSON con módulos, dependencias y riesgo
 2. Mapa visual con colores de riesgo
@@ -32,18 +32,18 @@ Fuera del MVP (se descarta si no alcanza):
 - Métricas avanzadas de rendimiento
 - Login de usuarios
 
-## ⏳ Cronograma por Horas
+##  Cronograma por Horas
 - Bloque 1 (primeras ~5h): repo, estructura, cuentas de Kiro, proyecto viejo de ejemplo, mockup.
 - Bloque 2 (siguientes ~12h): backend de análisis, mapa, aprobación, Power de Kiro, migrar 2-3 módulos.
 - Bloque 3 (últimas ~5h): pruebas, reporte antes/después, ensayo de demo x3, video/pitch, plan B.
 
-## 🤝 División de Roles
+## División de Roles
 - [Ingeniero]: análisis del repo, grafo de dependencias, migración, Power de Kiro.
 - [Santiago]: proyecto de ejemplo, interfaz del mapa, aprobación humana, reporte, guion de demo y pitch.
 - Ambos: pruebas y ensayo final.
 - Una rama por funcionalidad; merge a main solo con la funcionalidad probada.
 
-## 🔄 Flujo (humano valida alcance y plan)
+##  Flujo (humano valida alcance y plan)
 1. Work item: "Modernizar este proyecto"
 2. Contexto: el agente lee el repo y las reglas de negocio
 3. Alcance: mapa de impacto -> humano valida
@@ -53,20 +53,20 @@ Fuera del MVP (se descarta si no alcanza):
 
 El grafo sugiere impacto, no confirma alcance ni reemplaza la revisión del equipo.
 
-## 🎬 Demo (3-4 min)
+##  Demo (3-4 min)
 1. Proyecto viejo + mapa en rojo
 2. Explicar un módulo en español simple
 3. Mostrar el plan y aprobarlo en vivo
 4. Migrar un módulo: pasa de rojo a verde
 5. Reporte final
 
-## ⚠️ Riesgos
+##  Riesgos
 - Cubrir muchos lenguajes -> usar solo uno
 - Hallazgos sin evidencia -> cada uno con archivo y línea
 - Dejar la demo para el final
 - Probar solo contra el repo de ejemplo, nunca contra sistemas ajenos
 
-## 📌 Pendientes por definir
+##  Pendientes por definir
 - [ ] Duración y reglas del hackathon
 - [ ] Lenguaje del proyecto de ejemplo
 - [ ] Cuentas y acceso a Kiro listos
